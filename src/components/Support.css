@@ -1,0 +1,63 @@
+.support {
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.support h1 {
+    color: #6C63FF;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.support .support-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    /* border-radius: 32px; */
+    /* padding: 1rem; */
+    /* background-color: #6C63FF; */
+    /* color: white; */
+    /* transition: all 0.5s; */
+    /* margin-bottom: 1rem; */
+}
+
+.support .support-container .support-data {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.support .support-container .support-data .support-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.support .support-container .support-data .support-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.support .support-container .support-data .support-card:hover {
+    border: 2px solid #6C63FF;
+}
+
+.support .support-container .support-data .support-card p {
+    margin-bottom: 1rem;
+}
+
+.support .support-container .support-data .support-card span {
+    margin-top: 1rem;
+}

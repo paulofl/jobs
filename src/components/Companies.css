@@ -1,0 +1,51 @@
+.companies {
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 1rem 0;
+}
+
+.companies h1 {
+    color: #6C63FF;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.companies .companies-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 32px;
+    padding: 1rem;
+    background-color: #6C63FF;
+    color: white;
+    transition: all 0.5s;
+    margin-bottom: 1rem;
+}
+
+.companies .companies-container:hover {
+    background-color: #4f49c0;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+.companies .companies-container .company-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.companies .companies-container .company-data {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.companies .companies-container .company-data span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}

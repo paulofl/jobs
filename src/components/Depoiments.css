@@ -1,0 +1,73 @@
+.depositions {
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 1rem 0;
+}
+  
+.depositions h1 {
+  color: #6C63FF;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+  
+.depositions-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.depositions-card {
+  margin: 10px;
+  height: 425px;
+  width: 300px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #4c4c56;
+  transition: 0.3s ease-in;
+}
+
+.depositions-card h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.depositions-card img {
+  height: 100px;
+  margin: 20px 0;
+}
+
+.depositions-card p {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 20px;
+}
+
+.depositions-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.depositions-card span {
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #6C63FF;
+  font-size: 1rem;
+}
+
+.depositions-card:hover {
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
